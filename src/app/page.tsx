@@ -44,7 +44,7 @@ const LampEffect = () => (
   </LampContainer>
 );
 
-const ProjectCard = ({ project, index, onClick }) => (
+const ProjectCard = ({ project, index, onClick }: { project: any, index: number, onClick: (project: any) => void }) => (
   <motion.div 
     className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl shadow-black/20 cursor-pointer"
     initial={{ opacity: 0 }}
@@ -65,7 +65,7 @@ const ProjectCard = ({ project, index, onClick }) => (
   </motion.div>
 );
 
-const ProjectModal = ({ project, onClose }) => (
+const ProjectModal = ({ project, onClose }: { project: any, onClose: () => void }) => (
   <motion.div
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
@@ -109,7 +109,7 @@ const ProjectModal = ({ project, onClose }) => (
             {Object.entries(project.links).map(([linkName, url]) => (
               <motion.a
                 key={linkName}
-                href={url}
+                href={url as string}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 border border-dashed border-white rounded-full hover:bg-white hover:text-gray-800 transition-colors duration-200"
@@ -134,14 +134,14 @@ const ProjectModal = ({ project, onClose }) => (
 );
 
 const ShowcasePage = () => {
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState<{ id: number }[]>([]);
   const [selectedProject, setSelectedProject] = useState(null);
 
   useEffect(() => {
     setProjects(getProjects());
   }, []);
 
-  const handleProjectClick = (project) => {
+  const handleProjectClick = (project: any) => {
     setSelectedProject(project);
   };
 
