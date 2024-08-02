@@ -15,7 +15,7 @@ const defaultProjects = [
     description: "Neat showcase built with shadcn and aceternity ui",
     big_description: "In this project I created a showcase where I store all my projects during this challenge. I used React and Next.js as a framework.",
     screenshotPath: "/images/project2.png",
-    links: {'GitHub': "https://github.com", 'Live Demo': "https://example.com"}
+    links: {'GitHub': "https://github.com/Kr30x/project-showcase", 'Live Demo': "https://kr30x-projects.vercel.app/"}
   },
 ];
 
