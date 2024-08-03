@@ -17,6 +17,14 @@ const defaultProjects = [
     screenshotPath: "/images/project2.png",
     links: {'GitHub': "https://github.com/Kr30x/project-showcase", 'Live Demo': "https://kr30x-projects.vercel.app/"}
   },
+  {
+    id: 3,
+    name: "Multiplayer tic tac toe",
+    description: "Tic tac toe game with multiplayer",
+    big_description: "In this project I created a tic tac toe game with multiplayer. I used React and Next.js as a framework, and Express for the backend.",
+    screenshotPath: "/images/project3.png",
+    links: {'GitHub': "https://github.com/Kr30x/tictactoe-online", 'Live Demo': "https://kr30xs-tictactoe-online.vercel.app/"}
+  }
 ];
 
 export const getProjects = () => {
