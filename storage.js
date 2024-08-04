@@ -24,7 +24,14 @@ const defaultProjects = [
     big_description: "In this project I created a tic tac toe game with multiplayer. I used React and Next.js as a framework, and Express for the backend.",
     screenshotPath: "/images/project3.png",
     links: {'GitHub': "https://github.com/Kr30x/tictactoe-online", 'Live Demo': "https://kr30xs-tictactoe-online.vercel.app/"}
-  }
+  },
+  {
+    id: 4,
+    name: "Custom dashboard with authentication",
+    description: "Beautiful custom dashboard built with react",
+    big_description: "In this project I created a dashboard, which is connected to Clerk. ",
+    screenshotPath: "/images/project4.png",
+    links: {'GitHub': "https://github.com/Kr30x/react-clerk-setup", 'Live Demo': "https://github.com/Kr30x/react-clerk-setup"}
 ];
 
 export const getProjects = () => {
