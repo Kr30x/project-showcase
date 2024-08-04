@@ -31,7 +31,8 @@ const defaultProjects = [
     description: "Beautiful custom dashboard built with react",
     big_description: "In this project I created a dashboard, which is connected to Clerk. ",
     screenshotPath: "/images/project4.png",
-    links: {'GitHub': "https://github.com/Kr30x/react-clerk-setup", 'Live Demo': "https://github.com/Kr30x/react-clerk-setup"}
+    links: {'GitHub': "https://github.com/Kr30x/react-clerk-setup", 'Live Demo': "https://github.com/Kr30x/react-clerk-setup"},
+  }
 ];
 
 export const getProjects = () => {
