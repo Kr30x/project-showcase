@@ -32,6 +32,14 @@ const defaultProjects = [
     big_description: "In this project I created a dashboard, which is connected to Clerk. ",
     screenshotPath: "/images/project4.png",
     links: {'GitHub': "https://github.com/Kr30x/react-clerk-setup", 'Live Demo': "https://github.com/Kr30x/react-clerk-setup"},
+  },
+  {
+    id: 5,
+    name: "Kazakhstan steam prices calculator",
+    description: "Steam price calculator for Kazakhstan",
+    big_description: "In this project I created a steam price calculator for Kazakhstan. I used React and Next.js as a framework, and Express for the backend. Here I used Steam and v6-exchage APIs",
+    screenshotPath: "/images/project5.png",
+    links: {'GitHub': "https://github.com/Kr30x/steam-kz-prices", 'Live Demo': "https://steam-kz-prices.vercel.app/"},
   }
 ];
 
