@@ -40,6 +40,14 @@ const defaultProjects = [
     big_description: "In this project I created a steam price calculator for Kazakhstan. I used React and Next.js as a framework, and Express for the backend. Here I used Steam and v6-exchage APIs",
     screenshotPath: "/images/project5.png",
     links: {'GitHub': "https://github.com/Kr30x/steam-kz-prices", 'Live Demo': "https://steam-kz-prices.vercel.app/"},
+  },
+  {
+    id: 6,
+    name: "3D Globe with city tracking",
+    description: "Beautiful 3D Globe with city tracking, and path creation for plane flight simulation",
+    big_description: "In this project I created a 3D Globe with city tracking, and path creation for plane flight simulation. I used React and Next.js as a framework, and Express for the backend. I used Aceternity UI to create the Globe and Kaggle to find data about every city on earth.",
+    screenshotPath: "/images/project6.png",
+    links: {'GitHub': "https://github.com/Kr30x/3d-globe-city-tracking"}
   }
 ];
 
